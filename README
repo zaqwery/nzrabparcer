@@ -1,23 +1,23 @@
-        This code is only to showcase my Ruby programming language knowledge and skills.
-        I do not recommend running this program, as I'm not sure if the URLs of the specified websites are still relevant and if you are not going to use the data it will produce.
+This code is only to showcase my Ruby programming language knowledge and skills.
+I do not recommend running this program, as I'm not sure if the URLs of the specified websites are still relevant and if you are not going to use the data it will produce.
 
-        NZRABparser is a Ruby-program which was written in 2011 when I was looking for a job in NZ, AU.
+NZRABparser is a Ruby-program which was written in 2011 when I was looking for a job in NZ, AU.
 
-        This programm relies on 'nokogiri' and 'gmail' rubygems, requires 'open-uri' module
+This programm relies on 'nokogiri' and 'gmail' rubygems, requires 'open-uri' module
 
-        Run
-        > ruby init.rb
+Run
+> ruby init.rb
 
-        It has an internal 'guide' that creates a database text file with a defined name, if not already created.
-        This text file stores a data in a certain format parsed from specified website.
-        The program has menu to help you around.
-        If the database text file is empty, command 'scrap' - will start parsing the specified website in a specified manner and filling the file with relevant data.
-        When the parsing is complete you may browse through the file, list it, search for a certain name, etc.
+It has an internal 'guide' that creates a database text file with a defined name, if not already created.
+This text file stores a data in a certain format parsed from specified website.
+The program has menu to help you around.
+If the database text file is empty, command 'scrap' - will start parsing the specified website in a specified manner and filling the file with relevant data.
+When the parsing is complete you may browse through the file, list it, search for a certain name, etc.
 
-        Command "send" will access your GMAIL account and generate an email with specified content and attachments and send it to an address in taken from database.
-        This command will go through all emails in the list, generating emails every 20 second to avoid gmail account suspension for sending over the limit number of messages.
+Command "send" will access your GMAIL account and generate an email with specified content and attachments and send it to an address in taken from database.
+This command will go through all emails in the list, generating emails every 20 second to avoid gmail account suspension for sending over the limit number of messages.
 
-        This code can be adapted to any situation when parsing is required. use with care.
+This code can be adapted to any situation when parsing is required. use with care.
 
 
 
